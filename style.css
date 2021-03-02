@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    position: relative;
+    width: 1440px;
+    height: 550px;
+    background: url('./images/desktop/image-hero.jpg');
+    object-fit: cover;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 50px;
+}
+.nav-header{
+    position: fixed;
+    width: 1440px;
+    height: 50px;
+    padding: 50px 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -50px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 100%);
+    display: flex;
+    z-index: 99;
+}
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    margin-right: 50px;
+    list-style-type: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: white; 
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 2px solid none;
+    transition: 0.5s ease;
+}
+.nav-link:hover{
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+.nav-content{
+    position: absolute;
+    top: 30%;
+    width: 600px;
+    height: 240px;
+    border: 2px solid white;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-text{
+    padding: 40px 20px;
+    font-size: 55px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Josefin sans', sans-serif;
+    margin-left: 50px;
+    letter-spacing: 5px;
+}
+.container{
+    margin: auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+    padding: 0px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.vr{
+    position: relative;
+    margin-top: 100px;
+    font-weight: 300;
+    font-family: 'Josefin sans', sans-serif;
+}
+.vr-content{
+    width: 650px;
+    position: absolute;
+    background-color: white;
+    padding:100px;
+    top: 30%;
+    right: -5%;
+    text-align: left;
+}
+.vr-title{
+    font-size: 50px;
+    font-weight: 400;
+}
+.vr-text{
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color:#a1a1a1 ;
+}
+.photo-gallery{
+    margin-top: 120px;
+    max-width: 1440px;
+    font-family: 'Josefin sans', sans-serif;
+}
+.photo-gallery-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    margin-bottom: 15px;
+}
+.photo-gallery-header-title{
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.photo-gallery-btn{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif ;
+    letter-spacing: 5px;
+    padding: 10px 30px;
+    border: 2px solid #a1a1a1;
+    transition: 0.5s;
+    margin-top: -5px;
+}
+.photo-gallery-btn:hover{
+    background: #000;
+    color: white;
+    border: 2px solid #000000;
+}
+.photo-gallery-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 200px;
+}
+.card-img{
+    font-family: 'Josefin sans',sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 30px;
+    font-weight: 400;
+    color: white;
+    width: 250px;
+    height: 400px;
+    transition: 0.5s;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/desktop/image-deep-earth.jpg');
+}
+
+.card-imgs{
+    font-family: 'Josefin sans',sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 30px;
+    font-weight: 400;
+    color: white;
+    width: 250px;
+    height: 400px;
+    transition: 0.5s;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/desktop/image-from-above.jpg');
+}
+.card-img:hover{
+   background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('./images/desktop/image-deep-earth.jpg');;
+   transform: translateY(-20px);
+   box-shadow: 0px 2px 3px 1px #333;
+}
+.card-imgs:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('./images/desktop/image-from-above.jpg');;
+    transform: translateY(-20px);
+    box-shadow: 0px 2px 3px 1px #333;
+ }
+.p{
+    margin-top: 300px;
+    text-align: left;
+    z-index: 99;
+    opacity: 1;
+}
+.card-img:nth-child(2){
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./images/desktop/image-night-arcade.jpg');;
+    
+}
+.card-img:nth-child(2):hover{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,09)),url('./images/desktop/image-night-arcade.jpg');;
+    
+}
+.card-img:nth-child(3){
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/desktop/image-soccer-team.jpg');
+}
+.card-img:nth-child(3):hover{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('./images/desktop/image-soccer-team.jpg');
+}
+.card-img:nth-child(4){
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/desktop/image-grid.jpg');
+}
+.card-img:nth-child(4):hover{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('./images/desktop/image-grid.jpg');
+}
+.card-imgs:nth-child(2){
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/desktop/image-pocket-borealis.jpg');
+}
+.card-imgs:nth-child(2):hover{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('./images/desktop/image-pocket-borealis.jpg');
+}
+.card-imgs:nth-child(3){
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/desktop/image-curiosity.jpg');
+}
+.card-imgs:nth-child(3):hover{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('./images/desktop/image-curiosity.jpg');
+}
+.card-imgs:nth-child(4){
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/desktop/image-fisheye.jpg');
+}
+.card-imgs:nth-child(4):hover{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('./images/desktop/image-fisheye.jpg');   
+}
+.future{
+    font-family: 'Alata',sans-serif;
+    position: relative;
+    background: black
+   
+}
+.future-content{
+    padding: 50px 0px 50px;
+    width: 50%;
+}
+.future-nav{
+    margin-bottom: 30px;
+}
+.future-right{
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #a1a1a1;
+    top: 65%;
+    right: 10%;
+    position: absolute;
+}
